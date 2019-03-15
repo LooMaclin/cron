@@ -9,6 +9,7 @@ use std::str::{self, FromStr};
 
 use time_unit::*;
 
+#[derive(Debug)]
 pub struct Schedule {
     years: Years,
     days_of_week: DaysOfWeek,
